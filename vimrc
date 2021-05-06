@@ -2,6 +2,10 @@
 set number
 syntax on
 
+"Search settings
+set ignorecase
+set smartcase
+
 "Tab settings
 set tabstop=4
 set shiftwidth=4
