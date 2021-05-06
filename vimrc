@@ -5,6 +5,7 @@ syntax on
 "Search settings
 set ignorecase
 set smartcase
+set incsearch
 
 "Tab settings
 set tabstop=4
