@@ -1,6 +1,7 @@
 "Display settings
 set number
 syntax on
+set showcmd
 
 "Search settings
 set ignorecase
