@@ -35,3 +35,10 @@ fi
 if [ -e ~/.vim ];then
   mv -b ~/.vim ~/.backup/vim
 fi
+
+# zsh files install
+ln -s ~/.dotfiles/.zshenv ~/.zshenv
+ln -s ~/.dotfiles/.zsh ~/.zsh
+
+# Vim files install
+ln -s ~/.dotfiles/.vim ~/.vim
