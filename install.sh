@@ -26,3 +26,12 @@ fi
 if [ -e ~/.zsh ];then
   mv -b ~/.zsh ~/.backup/zsh
 fi
+
+# vim files backup
+if [ -e ~/.vimrc ];then
+  mv -b ~/.vimrc ~/.backup/vimrc
+fi
+
+if [ -e ~/.vim ];then
+  mv -b ~/.vim ~/.backup/vim
+fi
