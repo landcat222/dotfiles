@@ -36,9 +36,17 @@ if [ -e ~/.vim -a ! -L ~/.vim ];then
   mv -b ~/.vim ~/.backup/vim
 fi
 
+# xprofile backup
+if [ -e ~/.xprofile -a ! -L ~/.xprofile ];then
+  mv -b ~/.xprofile ~/.backup/xprofile
+fi
+
 # zsh files install
 ln -s ~/.dotfiles/zshenv ~/.zshenv
 ln -s ~/.dotfiles/zsh ~/.zsh
 
 # Vim files install
 ln -s ~/.dotfiles/vim ~/.vim
+
+# xprofile install
+ln -s ~/.dotfiles/xprofile ~/.xprofile
