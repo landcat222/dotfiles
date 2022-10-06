@@ -41,4 +41,4 @@ ln -s ~/.dotfiles/.zshenv ~/.zshenv
 ln -s ~/.dotfiles/.zsh ~/.zsh
 
 # Vim files install
-ln -s ~/.dotfiles/.vim ~/.vim
+ln -s ~/.dotfiles/vim ~/.vim
