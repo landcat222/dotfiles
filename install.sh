@@ -47,6 +47,7 @@ ln -s ~/.dotfiles/zsh ~/.zsh
 
 # Vim files install
 ln -s ~/.dotfiles/vim ~/.vim
+ln -s ~/.dotfiles/vimrc ~/.vimrc
 
 # xprofile install
 ln -s ~/.dotfiles/xprofile ~/.xprofile
