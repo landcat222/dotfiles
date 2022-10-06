@@ -1,1 +1,3 @@
 set fileencodings=utf-8,sjis,euc-jp,default
+
+inoremap <silent> jj <ESC>
