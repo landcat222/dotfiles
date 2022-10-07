@@ -1,16 +1,19 @@
+" 表示設定
 set number
 set fileencodings=utf-8,sjis,euc-jp,default
+syntax on
 
+" インデント設定
 set autoindent
 set smartindent
 set expandtab
 set tabstop=4
 set shiftwidth=4
 
+" 検索設定
 set ignorecase
 set smartcase
 set incsearch
 
-syntax on
-
+" キー設定
 inoremap <silent> jj <ESC>
