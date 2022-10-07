@@ -6,4 +6,7 @@ set expandtab
 set tabstop=4
 set shiftwidth=4
 
+set ignorecase
+set smartcase
+
 inoremap <silent> jj <ESC>
