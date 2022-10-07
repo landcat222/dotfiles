@@ -11,4 +11,6 @@ set ignorecase
 set smartcase
 set incsearch
 
+syntax on
+
 inoremap <silent> jj <ESC>
