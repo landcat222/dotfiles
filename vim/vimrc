@@ -1,6 +1,7 @@
 set number
 set fileencodings=utf-8,sjis,euc-jp,default
 
+set autoindent
 set smartindent
 set expandtab
 set tabstop=4
