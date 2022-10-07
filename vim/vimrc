@@ -1,4 +1,6 @@
 set number
 set fileencodings=utf-8,sjis,euc-jp,default
 
+set smartindent
+
 inoremap <silent> jj <ESC>
